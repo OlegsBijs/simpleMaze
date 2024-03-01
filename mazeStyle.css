@@ -1,0 +1,29 @@
+#maze{
+    display:inline-block;
+    width:400px;
+    height:400px;
+}
+.cell{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    margin:0px;
+    padding:0px;
+}
+.wall{
+    background-color: black;
+    color:black;
+}
+.ground{
+    background-color:grey;
+    color:grey;
+}
+.person{
+    background-color: deeppink;
+    color: deeppink;
+}
+
+.win{
+    background-color: blue;
+    color: blue;
+}
